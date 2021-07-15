@@ -1,0 +1,64 @@
+.header-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px 0;
+  text-align: center;
+}
+.header-welcome__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.header-welcome__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+.form-login__input {
+  border: none;
+  padding: 15px 0;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+.form-login__btn {
+  background-color: var(--yellow);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.form-login__a {
+  text-align: center;
+  font-size: 13px;
+}
+.form-login__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.form-login__input:focus {
+  border-color: var(--yellow);
+}
+
+/* #form-login input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+} */
+/* #form-login input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 20px 0;
+  border-radius: 5px;
+} */
+/* #form-login a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+} */
