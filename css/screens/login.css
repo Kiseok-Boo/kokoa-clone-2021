@@ -1,3 +1,6 @@
+.container {
+  background-color: rgba(167, 30, 37, 0.7);
+}
 .header-welcome {
   display: flex;
   flex-direction: column;
@@ -17,13 +20,13 @@
 .form-login {
   display: flex;
   flex-direction: column;
-  margin: 0 30px;
+  margin: 0px 30px;
 }
 .form-login__input {
   border: none;
   padding: 15px 0;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
@@ -31,11 +34,12 @@
   background-color: var(--yellow);
   border: none;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 20px 0;
   border-radius: 5px;
 }
 .form-login__a {
+  margin-top: 45px;
   text-align: center;
   font-size: 13px;
 }
