@@ -6,7 +6,6 @@
   margin-top: 100px;
 }
 #friends-display-link i {
-  /* color: rgba(0, 0, 0, 0.3); */
   opacity: 0.6;
 }
 .friends-main-screen {
@@ -19,7 +18,7 @@
   margin-bottom: 15px;
 }
 .friends-screen__lists {
-  padding: 0px 0 80px 0;
+  padding: 0px 0 70px 0;
 }
 .friends-list:first-child {
   margin-top: 100px;
@@ -47,8 +46,8 @@
   background-attachment: fixed;
   position: absolute;
   z-index: 2;
-  width: 100vw;
-  height: 1000%;
+  width: 96vw;
+  height: 305%;
   top: 0;
   animation: hideSplashScreen 0.2s ease-in-out forwards;
   animation-delay: 1.5s;
