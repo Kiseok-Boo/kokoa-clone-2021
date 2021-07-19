@@ -1,5 +1,6 @@
 .more-suggestions {
   border-top: var(--main-border);
+  margin-bottom: 10px;
 }
 .more-suggestions__title {
   padding: 25px 0;
@@ -24,4 +25,5 @@
 }
 .more-suggestion__icon-text {
   font-size: 12px;
+  text-align: center;
 }

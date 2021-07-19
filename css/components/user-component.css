@@ -27,7 +27,7 @@
 }
 .user-component__avatars {
   display: flex;
-  width: 64px;
+  width: 110px;
   flex-wrap: wrap;
 }
 .user-component__avatars--xs {

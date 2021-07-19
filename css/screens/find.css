@@ -73,8 +73,8 @@
   position: relative;
 }
 .open-post__image img {
-  width: 120px;
-  border: 120px;
+  width: 100px;
+  border: 100px;
   border-radius: 15px;
 }
 .open-post__image-heart {
