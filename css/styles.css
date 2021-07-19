@@ -6,15 +6,43 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/notification.css";
+@import "components/icon-row.css";
+@import "components/alt-header.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  margin-top: 100px;
-  color: rgb(216, 200, 56);
+  color: khaki;
+  background-color: rgb(167, 30, 37);
   background-image: url("../Pictures/Background.jpg");
-  background-size: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.status-bar *,
+.screen-header *,
+.nav-bar * {
+  color: rgb(216, 200, 56);
+}
+.main-screen {
+  padding: 10px var(--horizontal-space) 0 var(--horizontal-space);
+  background-color: rgba(167, 30, 37, 0.7);
+}
+.chat-screen {
+  /* background-color: #00a494; */
+  background-image: url("../Pictures/Chats_background.jpg"),
+    linear-gradient(120deg, #00a494 50%, #cb0826 50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
 }

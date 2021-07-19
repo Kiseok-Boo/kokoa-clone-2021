@@ -1,0 +1,20 @@
+.settings-lists {
+  display: flex;
+  flex-direction: column;
+}
+.settings-list {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(214, 195, 84, 0.3);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-list i {
+  margin-right: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.settings-list-column:last-child {
+  opacity: 0.7;
+}

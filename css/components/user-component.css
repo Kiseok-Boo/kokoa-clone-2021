@@ -1,7 +1,7 @@
 .user-component {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 .user-component__column {
   display: flex;
@@ -10,6 +10,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
+  border: 2px solid khaki;
   border-radius: 26.25px;
 }
 .user-component__avatar--xl {
@@ -24,12 +25,27 @@
   border: 2px solid khaki;
   border-radius: 22.5px;
 }
+.user-component__avatars {
+  display: flex;
+  width: 64px;
+  flex-wrap: wrap;
+}
+.user-component__avatars--xs {
+  width: 30px;
+  height: 30px;
+  border: 1px solid khaki;
+  border-radius: 11.25px;
+}
 .user-component__text {
   margin-left: 20px;
 }
 .user-component__title {
   font-size: 22px;
   font-weight: bold;
+}
+.user-component__titles {
+  display: flex;
+  align-items: center;
 }
 .user-component__title--not-bold {
   font-size: 20px;
@@ -40,6 +56,19 @@
   margin-top: 8px;
   opacity: 0.8;
 }
-.friends-screen__channel .user-component__column:last-child {
+.user-component__titles__numbers {
+  margin-left: 10px;
   opacity: 0.8;
+}
+.user-component__column:last-child {
+  opacity: 0.6;
+}
+.user-component__column__notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.user-component__time {
+  opacity: 0.7;
 }

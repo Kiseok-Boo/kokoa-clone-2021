@@ -3,26 +3,26 @@
   text-align: center;
   background-color: #a73430;
   padding: 15px 0;
-  margin-bottom: 10px;
+  margin-top: 100px;
 }
 #friends-display-link i {
   /* color: rgba(0, 0, 0, 0.3); */
   opacity: 0.6;
 }
-.friends-screen * {
-  color: khaki;
-}
-.friends-screen {
-  padding: 0 var(--horizontal-space);
+.friends-main-screen {
   background-color: rgba(167, 30, 37, 0.7);
 }
-.friends-screen__channel,
-.friends-screen__lists {
-  border-top: 1px solid rgba(214, 195, 84, 0.7);
+.friends-screen__channel {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
   padding: 15px 0;
+  margin-bottom: 15px;
 }
 .friends-screen__lists {
-  padding-bottom: 80px;
+  padding: 0px 0 80px 0;
+}
+.friends-list:first-child {
+  margin-top: 100px;
 }
 .friends-screen__channel-header,
 .friends-screen__lists-header {
@@ -31,4 +31,34 @@
   justify-content: space-between;
   align-items: center;
   opacity: 0.8;
+}
+.friends-list {
+  padding: 5px var(--horizontal-space);
+}
+.friends-list:hover {
+  background-color: rgba(109, 21, 25, 0.3);
+}
+#splash-screen {
+  background-image: url("../../Pictures/background1.jpg");
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 1000%;
+  top: 0;
+  animation: hideSplashScreen 0.2s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

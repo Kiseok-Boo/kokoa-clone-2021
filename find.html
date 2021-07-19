@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - KokoaTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>31%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
+        <div class="screen-header__dot"></div>
+      </div>
+    </header>
+
+    <main class="main-screen find-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-address-book fa-2x"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <div class="icon-row__icon__ID">
+            <span>ID</span>
+          </div>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope fa-2x"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommneded-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+
+      <div class="open-chats">
+        <div class="open-chats__header">
+          <h4>Open Chat</h4>
+          <span>
+            Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__text">
+            <h5 class="open-post__title">#LIVERPOOL</h5>
+            <h6 class="open-post__hashtags">#UNIFORM #AWAY #2021/22</h6>
+            <div class="open-post__members">
+              <img
+                class="open-post__avater"
+                src="Pictures/liverpool_official.jpg"
+              />
+              <span class="open-post__member-count">9,314 members |</span>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__image">
+            <img src="Pictures/liverpool-away-uniform.jpg" />
+            <div class="open-post__image-heart">
+              <i class="fas fa-heart"></i>
+              <span>803</span>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__text">
+            <h5 class="open-post__title">#LIVERPOOL</h5>
+            <h6 class="open-post__hashtags">
+              #HERO #BALL BOY #SIGNS PRO CONTRACT
+            </h6>
+            <div class="open-post__members">
+              <img
+                class="open-post__avater"
+                src="Pictures/liverpool_logo.jpg"
+              />
+              <span class="open-post__member-count">4,078 members |</span>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__image">
+            <img src="Pictures/anfield-ballboy.jpg" />
+            <div class="open-post__image-heart">
+              <i class="fas fa-heart"></i>
+              <span>528</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification notification">14</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/dce2cf3826.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
